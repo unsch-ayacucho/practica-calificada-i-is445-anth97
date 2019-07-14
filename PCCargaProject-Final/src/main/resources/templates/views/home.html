@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>triste ctm</title>
+</head>
+<body>
+<table>
+	<tr>
+		<td>a</td>
+		<td>a</td>
+		<td>a</td>
+		<td>a</td>
+	</tr>
+	<tr th:each="docente : ${listarDocente}">
+		<td th:text="${docente.idDocente}"></td>
+		<td th:text="${docente.idHorasDocente}"></td>
+		<td th:text="${docente.idSemestre}"></td>
+		<td th:text="${docente.idDocente}"></td>
+	</tr>
+</table>
+</body>
+</html>
